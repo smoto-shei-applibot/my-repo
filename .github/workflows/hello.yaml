@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world"
+      - run: echo "${{ github.actor }}"
       - uses: actions/checkout@v4
-
-
